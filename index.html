@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="root">
+        <div id="heading">
+            <h1>Stone, Paper & Scissor</h1>
+        </div>
+
+        <div id="p1">
+            <div class="p1c1" id="p1e1">
+                <div class="p1c2" id="user">
+                    <img class="p1c3" id="pl1" src="./Images/Paper2.jpeg" alt="">
+                    <img class="p1c3" id="pw1" src="./Images/Paper1.png" alt="">
+                    <img class="p1c3" id="stw1" src="./Images/Stone3.jpg" alt="">
+                    <img class="p1c3" id="stl1" src="./Images/Stone2.png" alt="">
+                    <img class="p1c3" id="scw1" src="./Images/Scissor2.png" alt="">
+                    <img class="p1c3" id="scl1" src="./Images/Scissor3.jpeg" alt="">
+                    <img class="Draw1" src="./Images/Stone3.jpg" alt="Draw">
+                    <img class="Draw2" src="./Images/Paper3.png" alt="Draw">
+                    <img class="Draw3" src="./Images/Scissor1.jpeg" alt="Draw">
+                    <img class="p1c3_1" id="ui" src="https://media0.giphy.com/media/jqI3buvbN3EitBjHfB/200w.webp?cid=ecf05e4708omffwnkzavpwcmqo8qbbphmxi7jn7y3rsdou7r&rid=200w.webp&ct=s" alt="">
+                </div>
+                <p class="p1c4">You</p>
+            </div>
+            <p style="font-size: 30px;">V/S</p>
+            <div class="p1c1" id="p1e2">
+                    <div class="p1c2" id="cpu">
+                        <img class="p1c3" id="pl2" src="./Images/Paper2.jpeg" alt="">
+                        <img class="p1c3" id="pw2" src="./Images/Paper1.png" alt="">
+                        <img class="p1c3" id="stw2" src="./Images/Stone3.jpg" alt="">
+                        <img class="p1c3" id="stl2" src="./Images/Stone2.png" alt="">
+                        <img class="p1c3" id="scw2" src="./Images/Scissor2.png" alt="">
+                        <img class="p1c3" id="scl2" src="./Images/Scissor3.jpeg" alt="">
+                        <img class="Draw1" src="./Images/Stone3.jpg" alt="Draw">
+                        <img class="Draw2" src="./Images/Paper3.png" alt="Draw">
+                        <img class="Draw3" src="./Images/Scissor1.jpeg" alt="Draw">
+                        <img class="p1c3_1" id="ci" src="https://media0.giphy.com/media/kzxii4xaIPLOYffCrf/200w.webp?cid=ecf05e4708omffwnkzavpwcmqo8qbbphmxi7jn7y3rsdou7r&rid=200w.webp&ct=s" alt="">
+                    </div>
+                    <p class="p1c4">AI</p>
+            </div>
+
+        </div>
+
+        <div id="p2">
+
+        <div class="p2c1" id="p2e1">
+            <div class="p2c2" id="cpu">
+                <img class="p2c3" id="stone" src="./Images/Stone3.jpg" alt="">
+                <img class="p2c3win" src="https://media2.giphy.com/media/dxP47JNjZOMl94DN4x/200.webp?cid=ecf05e47ug479o62d1bsxpx0fijjnwa84tapjuj2ibqfzngf&rid=200.webp&ct=s" alt="">
+                <img class="p2c3loose" src="https://media3.giphy.com/media/U3xNfq2DFVsqbFac5p/200w.webp?cid=ecf05e476jyvzy43zv2q1koz3ju62jxs7jufmcylmwv8ws7a&rid=200w.webp&ct=s" alt="">
+                <img class="Draw" src="https://media4.giphy.com/media/cWAg0HpUtwYsdwyZ36/200w.webp?cid=ecf05e47kz2c45ce8p91o0vjwvurj8ldmvjfc2wpunswxdmg&rid=200w.webp&ct=s" alt="Draw">
+            </div>
+            <p class="p2c4">Stone</p>
+        </div>
+        
+        <div class="p2c1" id="p2e2">
+            <div class="p2c2" id="cpu">
+                <img class="p2c3" id="paper" src="./Images/Paper3.png" alt="">
+                <img class="p2c3win"  src="https://media4.giphy.com/media/kOmS8y6eozxEthaX4U/giphy.webp?cid=ecf05e476iqqqnurha788fe008ia9chc24je4ylnu1xjkuce&rid=giphy.webp&ct=s" alt="">
+                <img class="p2c3loose"  src="https://media2.giphy.com/media/fWBViglh1Eznukv4nh/200w.webp?cid=ecf05e47pfz026tqiw2yuslqsx47vqnhp9dwbo8kh6w97hls&rid=200w.webp&ct=s" alt="">
+                <img class="Draw" src="https://media2.giphy.com/media/YIFvHEPeRxfdZmxiTI/200w.webp?cid=ecf05e47pfz026tqiw2yuslqsx47vqnhp9dwbo8kh6w97hls&rid=200w.webp&ct=s" alt="Draw">
+            </div>
+            <p class="p2c4">Paper</p> 
+        </div>
+
+        <div class="p2c1" id="p2e3">
+            <div class="p2c2" id="cpu">
+                <img class="p2c3" id="scissor" src="./Images/Scissor1.jpeg" alt="">
+                <img class="p2c3win"  src="https://media2.giphy.com/media/dxP47JNjZOMl94DN4x/200.webp?cid=ecf05e47ug479o62d1bsxpx0fijjnwa84tapjuj2ibqfzngf&rid=200.webp&ct=s" alt="">
+                <img class="p2c3loose"  src="https://media3.giphy.com/media/U3xNfq2DFVsqbFac5p/200w.webp?cid=ecf05e476jyvzy43zv2q1koz3ju62jxs7jufmcylmwv8ws7a&rid=200w.webp&ct=s" alt="">
+                <img class="Draw" src="https://media4.giphy.com/media/cWAg0HpUtwYsdwyZ36/200w.webp?cid=ecf05e47kz2c45ce8p91o0vjwvurj8ldmvjfc2wpunswxdmg&rid=200w.webp&ct=s" alt="Draw">
+            </div>
+            <p class="p2c4">Scissor</p>
+        </div>
+
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
